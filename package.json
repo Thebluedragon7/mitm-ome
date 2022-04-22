@@ -14,6 +14,7 @@
   "license": "ISC",
   "author": "TheBlueDragon7",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "*",
     "faye": "*",
     "qs": "*",

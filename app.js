@@ -1,3 +1,4 @@
+require("dotenv").config();
 var Omegle = require("./omegle.js").Omegle;
 var onOmegleReady = require("./omegle.js").onReady;
 var express = require("express");
@@ -657,6 +658,7 @@ io.on("connection", function (socket) {
 });
 
 var omeglePortNumber = process.env.PORT;
+console.log(omeglePortNumber);
 httpServer.listen(omeglePortNumber, function () {
   console.log(
     "Listening on port " +
