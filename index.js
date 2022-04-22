@@ -17,7 +17,7 @@ var settings = require("./settings.json");
 //var Cleverbot = require('./cleverbot.js');
 //var Sham = require('./shamchat.js').Sham;
 
-app.get("/", function (req, res) {
+app.get("/ome", function (req, res) {
   res.sendFile(__dirname + "/static/index.htm");
 });
 
