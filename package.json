@@ -1,0 +1,23 @@
+{
+  "name": "ome-mitm",
+  "description": "A test omegle project",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "license": "ISC",
+  "author": "TheBlueDragon7",
+  "dependencies": {
+    "express": "*",
+    "faye": "*",
+    "qs": "*",
+    "request": "*",
+    "socket.io": "*"
+  }
+}
