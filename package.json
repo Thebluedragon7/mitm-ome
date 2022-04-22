@@ -15,10 +15,10 @@
   "author": "TheBlueDragon7",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "*",
-    "faye": "*",
-    "qs": "*",
-    "request": "*",
-    "socket.io": "*"
+    "express": "^4.17.3",
+    "faye": "^1.4.0",
+    "qs": "^6.10.3",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
   }
 }
