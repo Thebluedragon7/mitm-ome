@@ -4,8 +4,8 @@ var onOmegleReady = require("./omegle.js").onReady;
 var express = require("express");
 var app = express();
 
-// app.use(express.static(__dirname + "/static"));
-app.use(express.static("static/"));
+app.use(express.static(`${__dirname}` + "/static"));
+// app.use(express.static("static/"));
 
 var request = require("request");
 var http = require("http");
@@ -19,8 +19,8 @@ var settings = require("./settings.json");
 //var Sham = require('./shamchat.js').Sham;
 
 app.get("/ome", function (req, res) {
-  // res.sendFile(__dirname + "/static/index.htm");
-  res.sendFile("static/index.htm");
+  res.sendFile(`${__dirname}` + "/static/index.htm");
+  // res.sendFile("static/index.htm");
 });
 
 // Handle connections
